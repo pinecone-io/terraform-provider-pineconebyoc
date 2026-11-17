@@ -1,0 +1,27 @@
+# Build output
+/terraform-provider-pineconebyoc
+*.exe
+dist/
+
+# Local filesystem mirror from scripts/local-mirror.sh
+.local-mirror/
+
+# Go test artifacts
+*.test
+coverage.out
+
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Local credentials
+.env
+
+# Editor and OS files
+.DS_Store
+.idea/
+*.iml
+*.swp
+*~
